@@ -5,3 +5,26 @@ en:
     admin:
       application_admin:
         fbt20: "Framgia booking tour"
+  admin:
+    home:
+      index:
+        title: "Dashboard"
+        subject: "Dashboard"
+        number: "Number"
+        name: "Name"
+        function: "Function"
+    categories:
+      create:
+        category_create_success: "Create category success"
+        category_create_danger: "Create category failed"
+      index:
+        title: "Category"
+        subject: "Manage category"
+        add: "Add Category"
+      new:
+        title: "Category"
+        subject: "Create category"
+        add: "Add"
+      category:
+        edit: "Edit"
+        delete: "Delete"

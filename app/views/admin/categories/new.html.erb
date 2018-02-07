@@ -1,0 +1,16 @@
+<% provide :title, t(".title") %>
+<% provide :subject, t(".subject") %>
+<div class="panel-body">
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="form-group">
+        <%= form_for [:admin, @category] do |f| %>
+        <%= render "admin/shared/error_messages" %>
+        <%= f.label :name %>
+        <%= f.text_field :name, class: "form-control"%>
+      </div>
+      <%= f.submit (t".add"), class: "btn btn-primary"%>
+    <% end %>
+    </div>
+  </div>
+</div>
