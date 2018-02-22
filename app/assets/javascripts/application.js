@@ -16,4 +16,5 @@
 //= require bootstrap
 //= require bootstrap-sprockets
 //= require bootstrap.min
+//= require dataTables/jquery.dataTables
 //= require_tree .

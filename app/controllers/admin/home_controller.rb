@@ -1,6 +1,8 @@
-class Admin::HomeController < Admin::BaseAdminController
-  include ApplicationHelper
+# frozen_string_literal: true
 
-  def index
+module Admin
+  class HomeController < Admin::BaseAdminController
+
+    def index; end
   end
 end
