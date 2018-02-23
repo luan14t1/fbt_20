@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class Tour < ApplicationRecord
-  belongs_to :category
+  belongs_to :category, optional: true
   has_many :reviews, dependent: :destroy
   has_many :likes, dependent: :destroy
   has_many :ratings, dependent: :destroy

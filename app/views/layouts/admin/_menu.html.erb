@@ -12,59 +12,45 @@
         </div>
       </li>
       <li>
-        <a href="#">
-          <i class="fa fa-dashboard fa-fw"></i>
-          <%= t ".dashboard" %>
-        </a>
+        <%= link_to admin_root_path do %>
+         <i class="fa fa-dashboard fa-fw"></i><%= t".dashboard" %>
+        <% end %>
       </li>
 
       <li>
-        <a href="#">
-          <i class="fa fa-user fa-fw"></i>
-          <%= t ".user" %>
-        </a>
+        <%= link_to "#" do %>
+         <i class="fa fa-user fa-fw"></i><%= t".user" %>
+        <% end %>
       </li>
 
       <li>
-        <a href="/admin/categories">
-          <i class="fa fa-table fa-fa"></i>
-          <%= t ".category" %>
-        </a>
+        <%= link_to admin_tours_path do %>
+         <i class="fa fa-table fa-fw"></i><%= t".tours" %>
+        <% end %>
       </li>
 
       <li>
-        <a href="#">
-          <i class="fa fa-table fa-fw"></i></i>
-          <%= t ".tours" %>
-        </a>
+        <%= link_to "#" do %>
+         <i class="fa fa-files-o fa-fw"></i><%= t".review" %>
+        <% end %>
       </li>
 
       <li>
-        <a href="#">
-          <i class="fa fa-files-o fa-fw"></i>
-          <%= t ".review" %>
-        </a>
+        <%= link_to "#" do %>
+         <i class="fa fa-sitemap fa-fw"></i><%= t".comment" %>
+        <% end %>
       </li>
 
       <li>
-        <a href="#">
-          <i class="fa fa-sitemap fa-fw"></i>
-          <%= t ".comment" %>
-        </a>
+        <%= link_to "#" do %>
+         <i class="fa fa-wrench fa-fw"></i><%= t".booking" %>
+        <% end %>
       </li>
 
       <li>
-        <a href="#">
-          <i class="fa fa-wrench fa-fw"></i>
-          <%= t ".booking" %>
-        </a>
-      </li>
-
-      <li>
-        <a href="#">
-          <i class="fa fa-twitter fa-fw"></i>
-          <%= t ".like" %>
-        </a>
+        <%= link_to "#" do %>
+         <i class="fa fa-twitter fa-fw"></i><%= t".like" %>
+        <% end %>
       </li>
     </ul>
   </div>

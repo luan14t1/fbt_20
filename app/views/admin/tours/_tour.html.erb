@@ -1,0 +1,15 @@
+<tr>
+  <th><%= tour.id %></th>
+  <th><%= tour.title %></th>
+  <th><%= tour.description %></th>
+  <th><%= tour.image %></th>
+  <th><%= tour.number_user %></th>
+  <th><%= tour.start_date %></th>
+  <th><%= tour.end_date %></th>
+  <th><%= tour.price %></th>
+  <th><%= tour.rating %></th>
+  <th><%= tour.category.name %></th>
+  <td><%= link_to (t".edit"), "#" %> |
+    <%= link_to (t".delete"), "#",
+    method: :delete, data:{confirm: (t".comfirm")} %></td>
+</tr>
