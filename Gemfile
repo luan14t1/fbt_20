@@ -28,10 +28,15 @@ gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
 
 gem "bootstrap-sass", "3.3.7"
+
 gem "config"
 gem "faker", "1.7.3"
 gem "jquery-datatables-rails", "~> 3.4.0"
 gem "jquery-rails"
+gem "bcrypt"
+gem "carrierwave"
+gem "mini_magick"
+
 group :development, :test do
   # Call "byebug" anywhere in the code to stop execution and get a debugger console
   gem "byebug", platforms: %i(mri mingw x64_mingw)

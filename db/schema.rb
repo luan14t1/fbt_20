@@ -93,8 +93,6 @@ ActiveRecord::Schema.define(version: 20180205115628) do
     t.string "email"
     t.string "password_digest"
     t.boolean "admin", default: false
-    t.date "birthday"
-    t.boolean "male"
     t.string "avatar"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
