@@ -1,3 +1,17 @@
 category:
   name:
     max_length: 50
+
+user:
+  name:
+    max_length: 50
+  email:
+    max_length: 255
+  phone:
+    min_length: 9
+    max_length: 13
+  address:
+    min_length: 6
+  password:
+    min_length: 6
+

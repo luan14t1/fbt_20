@@ -1,0 +1,28 @@
+vi:
+  layouts:
+    application:
+      fbt20: "Framgia booking tour"
+    admin:
+      application_admin:
+        fbt20: "Framgia booking tour"
+
+  users:
+    new:
+      name: "Tên"
+      address: "Địa chỉ"
+      phone: "Số điện thoại"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirm: "Xác nhận mật khẩu"
+      avatar: "Ảnh đại diện"
+      create: "Tạo tài khoản"
+      signup: "Đăng kí"
+      title: "Đăng kí | Framgia booking tour"
+
+  message:
+    account_created: "Đăng kí tài khoản thành công"
+
+  shared:
+    error_messagses:
+      the_form_contains: "Form chứa"
+      error: "lỗi"
